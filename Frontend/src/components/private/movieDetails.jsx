@@ -14,6 +14,11 @@ const MovieDetails = () => {
     const { id } = useParams();
     const dispatch = useDispatch()
 
+
+    useEffect(() => {
+        getMovieDetails();
+          }, [id]);
+
     async function getMovieDetails() {
         try {
             const apiResponse = await axios.get(`https://www.omdbapi.com/?i=${id}&apikey=${myApi}`);
@@ -32,9 +37,7 @@ const MovieDetails = () => {
         alert("Movie Added To The Favorites")
     };
 
-      useEffect(() => {
-         getMovieDetails();
-           }, [id]);
+      
 
     if (loading) {
         return (
