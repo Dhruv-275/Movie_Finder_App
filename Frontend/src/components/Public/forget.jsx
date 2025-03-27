@@ -118,7 +118,7 @@ const ForgetPass = () => {
         )}
         <div className="text-center mt-3">
           <p>
-            Back to Login <Link to="/login">login</Link>
+            Back to Login <Link to="/login">Login</Link>
           </p>
         </div>
       </Form>

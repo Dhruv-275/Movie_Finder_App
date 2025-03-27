@@ -106,7 +106,7 @@ function SignUp() {
  
         <div className="login-link">
           <p>
-            Already Registered? <Link to="/login">login</Link>
+            Already Registered? <Link to="/login">Login</Link>
           </p>
         </div>
       </Form>

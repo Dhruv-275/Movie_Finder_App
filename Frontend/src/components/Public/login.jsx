@@ -84,20 +84,17 @@ function Login() {
           {errorMsg && <p style={{ color: "red" }}>{errorMsg}</p>}
 
           <Button type="submit" disabled={loading}>
-            {loading ? "Submitting..." : "login"}
+            {loading ? "Submitting..." : "Login"}
           </Button>
 
           <div className="login-link">
          
             <p>
-              New Registration <Link to="/signUp">signUp</Link>
+              New Registration <Link to="/signUp">Sign up</Link>
             </p>
             <p>
-              Already Have Account <Link to="/">Home</Link>
-            </p>
-            <p>
-              Forget your Password{" "}
-              <Link to="/forgetpass">Forget Password</Link>
+              Forgot your Password{" "}
+              <Link to="/forgetpass">Forgot Password</Link>
             </p>
             
           </div>

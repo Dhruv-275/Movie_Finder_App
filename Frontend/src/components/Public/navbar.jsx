@@ -37,12 +37,12 @@ function NavbarCom() {
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/MyFavoriteMovies">Favorite</Nav.Link>
-              <Nav.Link href="/about">about</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
             <Nav className="logout-Button">
               <Nav.Link as={NavLink} to="/" onClick={Logout}>
-                log-Out
+              Log out
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

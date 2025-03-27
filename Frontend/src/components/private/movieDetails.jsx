@@ -65,7 +65,7 @@ const MovieDetails = () => {
                     <Card.Text><strong>Actor:</strong> {movieDetails.Actors}</Card.Text>
                     <Card.Text><strong>Plot:</strong> {movieDetails.Plot}</Card.Text>
 
-                    <Button variant="dark"  onClick={() => handleAddToFavorites(movieDetails)} >AddFavorites</Button>
+                    <Button variant="dark"  onClick={() => handleAddToFavorites(movieDetails)} >Add Favorites</Button>
 
                 </Card.Body>
             </Card>
